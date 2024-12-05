@@ -1,18 +1,17 @@
 
 import './App.css'
-import { BodyComponent } from './components/BodyComponent'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
+import { Header, BodyComponent, Footer } from './components'
+
+
 
 function App() {
 
-
   return (
-    <>
+    <div className="App">
       <Header />
       <BodyComponent />
       <Footer/>
-    </>
+    </div>
   )
 }
 
