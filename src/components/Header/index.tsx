@@ -1,4 +1,4 @@
-import './index.css'
+import "./index.css";
 
 export const Header = () => {
   return (
@@ -25,6 +25,6 @@ export const Header = () => {
     </div>
     </div>
 
-  )
-}
+  );
+};
 
